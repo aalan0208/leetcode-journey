@@ -41,4 +41,4 @@ class Solution(object):
             l2 = l2.next if l2 else None # if l1 still has a node, move to the next one, if its already None, keep it none
             
         return dummy_head.next #dummy head was fake first node with value 0. The real result list starts from dummy_head.next
-            
+                
